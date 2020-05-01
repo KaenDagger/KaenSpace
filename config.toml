@@ -1,4 +1,4 @@
-baseURL = "https://kaendagger.github.io/"
+baseURL = "https://kaenlupus.github.io/"
 title   = "KaenSpace"
 
 DefaultContentLanguage = "en"
@@ -58,7 +58,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "KaenDagger | Open Source Contributor | Software Developer"
+  homeSubtitle = "KaenLupus | Open Source Contributor | Software Developer"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -89,14 +89,14 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoText     = "$ cd /home/"
-    logoHomeLink = "https://kaendagger.github.io/"
+    logoHomeLink = "https://kaenlupus.github.io/"
     # Set to a valid CSS color to change the cursor in the logo.
     # logoColor    = "#67a2c9"
 
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/kaendagger"
+    url  = "https://twitter.com/kaenlupus"
 
   [[params.social]]
     name = "email"
@@ -104,11 +104,11 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/kaendagger/"
+    url  = "https://github.com/kaenlupus/"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/kaendagger/"
+    url  = "https://www.linkedin.com/in/kaelupus/"
 
 [languages]
   [languages.en]
@@ -134,3 +134,7 @@ disableHugoGeneratorInject = false
     identifier = "sessions"
     name = "Sessions"
     url = "sessions/"
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "projects/"
